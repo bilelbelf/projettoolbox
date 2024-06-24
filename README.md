@@ -2,7 +2,7 @@
 
 Security Toolbox est une application de sécurité développée en Python, permettant d'effectuer différentes analyses de sécurité telles que l'analyse de mot de passe, l'analyse de port, les tests de brute force SSH, et le scan de vulnérabilités. Cette application utilise des bibliothèques et des outils populaires tels que nmap, paramiko, tkinter, zxcvbn, FPDF, et vulners.
 
-# Fonctionnalités
+# Fonctionnalités 👨‍💻
 
 
 ### Authentification Utilisateur
@@ -33,10 +33,10 @@ Interface de connexion sécurisée avec validation des identifiants.
 - Scan de port via NMAP
 - Affichage des résultats avec détails sur les CVE et les scores CVSS.
   
-# Prérequis
-
-- **Python 3.6 ou supérieur** 
-- **Bibliothèques Python** :
+# Prérequis 📝
+![1](https://raw.githubusercontent.com/SP-XD/SP-XD/main/images/dev-working_rounded.gif)
+- ### Python 3.6 ou supérieur 
+- ### Bibliothèques Python :
 
 1. `os` : **Utilisation** : Fournit une manière d'interagir avec le système d'exploitation. Peut être utilisé pour manipuler les fichiers et les répertoires.
    
@@ -91,9 +91,10 @@ Interface de connexion sécurisée avec validation des identifiants.
 **Installation** : `pip install vulners`
 
 
-- **Nmap doit être installé et ajouté au PATH ([https://nmap.org/book/inst-windows.html](https://nmap.org/book/inst-windows.html)**
-  
-Installation
+- **Nmap doit être installé et ajouté au PATH ([https://nmap.org/book/inst-windows.html](https://nmap.org/book/inst-windows.html))**
+
+
+# Installation ☑️
 Clonez le dépôt :
 sh
 Copier le code
