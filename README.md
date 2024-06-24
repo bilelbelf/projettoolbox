@@ -5,35 +5,56 @@ Security Toolbox est une application de sécurité développée en Python, perme
 # Fonctionnalités
 
 
-## Authentification Utilisateur
+### Authentification Utilisateur
 
 Interface de connexion sécurisée avec validation des identifiants.
 
-## Analyse de Mot de Passe
+### Analyse de Mot de Passe
 
 - Vérification de la force du mot de passe.
 - Suggestions d'amélioration.
 - Détection de réutilisation de mot de passe.
 
-## Analyse de Port
+### Analyse de Port
 
 - Scan des ports ouverts sur une adresse IP.
 - Détails sur les services et versions des services trouvés.
 - Test Bruteforce SSH
 
-Test Bruteforce SSH
-Tentative de connexion SSH avec une liste de mots de passe courants.
-Génération de combinaisons de mots de passe basées sur les informations utilisateur.
-Scan de Vulnérabilité
-Recherche de vulnérabilités connues sur les services trouvés via nmap.
-Affichage des résultats avec détails sur les CVE et les scores CVSS.
-Prérequis
-Python 3.6 ou supérieur
-Bibliothèques Python : os, tkinter, threading, nmap, paramiko, numpy, socket, hashlib, zxcvbn, fpdf, docx, time, vulners
-Nmap doit être installé et ajouté au PATH (Téléchargement)
+### Test Bruteforce SSH
+
+- Tentative de connexion SSH avec une liste de mots de passe courants.
+- Génération de combinaisons de mots de passe basées sur les informations renseignées par l'utilisateur visant la victime.
+
+
+### Scan de Vulnérabilité
+
+- Recherche de vulnérabilités connues sur les services trouvés via l'API Vulners.
+- Scan de port via NMAP
+- Affichage des résultats avec détails sur les CVE et les scores CVSS.
+  
+# Prérequis
+
+- **Python 3.6 ou supérieur** 
+- **Bibliothèques Python** :
+````
+1. os
+2. tkinter
+3.  threading
+4.  nmap
+5.  paramiko
+6.  numpy
+7.  socket
+8.  hashlib
+9.  zxcvbn
+10.  fpdf
+11.  docx
+12.  time
+13.  vulners
+````
+- Nmap doit être installé et ajouté au PATH (https://nmap.org/book/inst-windows.html)
 Installation
 Clonez le dépôt :
-
 sh
 Copier le code
 git clone https://github.com/votre-utilisateur/votre-repo.git
