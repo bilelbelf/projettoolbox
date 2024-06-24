@@ -54,61 +54,45 @@ Interface de connexion sécurisée avec validation des identifiants.
 
      **Installation** : `pip install python-nmap`
    
-paramiko :
+5. `paramiko` : **Utilisation** : Fournit des outils pour les connexions SSH et SCP en Python.
+   
+**Installation** : `pip install paramiko`
 
-Utilisation : Fournit des outils pour les connexions SSH et SCP en Python.
-Installation :
-bash
-Copier le code
-pip install paramiko
-numpy :
+6. `numpy` : **Utilisation** : Bibliothèque pour le calcul numérique avec des tableaux multidimensionnels.
+   
+**Installation** : `pip install numpy`
 
-Utilisation : Bibliothèque pour le calcul numérique avec des tableaux multidimensionnels.
-Installation :
-bash
-Copier le code
-pip install numpy
-socket :
+7. `socket` : **Utilisation** : Fournit des outils pour la communication réseau de bas niveau.
+   
+**Installation** : Inclus par défaut avec Python, aucune installation supplémentaire n'est nécessaire.
 
-Utilisation : Fournit des outils pour la communication réseau de bas niveau.
-Installation : Inclus par défaut avec Python, aucune installation supplémentaire n'est nécessaire.
-hashlib :
+8. `hashlib` : **Utilisation** : Utilisé pour les fonctions de hachage sécurisées (SHA, MD5).
+   
+**Installation** : Inclus par défaut avec Python, aucune installation supplémentaire n'est nécessaire.
 
-Utilisation : Utilisé pour les fonctions de hachage sécurisées (SHA, MD5).
-Installation : Inclus par défaut avec Python, aucune installation supplémentaire n'est nécessaire.
-zxcvbn :
+9. `zxcvbn` : **Utilisation** : Bibliothèque pour estimer la force des mots de passe.
+    
+**Installation** : `pip install zxcvbn`
 
-Utilisation : Bibliothèque pour estimer la force des mots de passe.
-Installation :
-bash
-Copier le code
-pip install zxcvbn
-fpdf :
+10. `fpdf` : **Utilisation**: Génération de fichiers PDF en Python.
 
-Utilisation : Génération de fichiers PDF en Python.
-Installation :
-bash
-Copier le code
-pip install fpdf
-docx :
+**Installation** : `pip install fpdf`
 
-Utilisation : Manipulation de documents Word (.docx) en Python.
-Installation :
-bash
-Copier le code
-pip install python-docx
-time :
+11. `docx` : **Utilisation**:  Manipulation de documents Word (.docx) en Python.
+    
+**Installation** : `pip install python-docx`
 
-Utilisation : Fournit des fonctions pour manipuler le temps et les dates.
-Installation : Inclus par défaut avec Python, aucune installation supplémentaire n'est nécessaire.
-vulners :
+12. `time` : **Utilisation** : Fournit des fonctions pour manipuler le temps et les dates.
+    
+**Installation** : Inclus par défaut avec Python, aucune installation supplémentaire n'est nécessaire.
 
-Utilisation : Interface avec la base de données de vulnérabilités Vulners pour la recherche de vulnérabilités.
-Installation :
-bash
-Copier le code
-pip install vulners
-- Nmap doit être installé et ajouté au PATH (https://nmap.org/book/inst-windows.html)
+13. `vulners` : **Utilisation** Interface avec la base de données de vulnérabilités Vulners pour la recherche de vulnérabilités.
+    
+**Installation** : `pip install vulners`
+
+
+- **Nmap doit être installé et ajouté au PATH ([https://nmap.org/book/inst-windows.html](https://nmap.org/book/inst-windows.html)**
+  
 Installation
 Clonez le dépôt :
 sh
