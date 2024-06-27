@@ -88,7 +88,7 @@ Les résultats des scans et analyses peuvent être exportés sous forme de fichi
 ## Conclusion et Perspectives
 Cette boîte à outils a été développée pour simplifier et améliorer les tests de sécurité. Nous continuons à améliorer ses fonctionnalités et à ajouter de nouvelles capacités pour répondre aux besoins en constante évolution du domaine de la cybersécurité.
 
-Pour toute question ou suggestion, n'hésitez pas à nous contacter par mail : bilelbelferroum.pro@gmail.com.
+Pour toute question ou suggestion, n'hésitez pas à me contacter par mail : bilelbelferroum.pro@gmail.com.
 
 Suivez les instructions à l'écran pour naviguer dans les différentes fonctionnalités de l'application.
 
