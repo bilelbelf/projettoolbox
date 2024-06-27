@@ -77,10 +77,10 @@ Exécutez le script principal. Une fenêtre d'authentification apparaîtra. Util
 Après authentification, vous accéderez à la fenêtre principale où vous pouvez choisir parmi les différentes analyses proposées.
 
 ## Analyses et Scans
-- **Analyse de Mot de Passe** : Entrez un mot de passe pour analyser sa robustesse.
-- **Analyse de Port** : Entrez une IP pour scanner les ports ouverts et les services associés.
-- **Test Bruteforce SSH** : Entrez une IP, un nom d'utilisateur, un prénom et une date de naissance pour effectuer un test de brute force.
-- **Scan de Vulnérabilité** : Entrez une IP et une plage de ports pour vérifier les vulnérabilités des services détectés.
+- **Analyse de Mot de Passe** : Entrez un mot de passe pour analyser sa robustesse, sa sécurité (de 1 à 4) et si il a deja été utilisé auparavant ou non.
+- **Analyse de Port** : Entrez une IP pour scanner les ports ouverts, les services associés et leurs versions.
+- **Test Bruteforce SSH** : Entrez une IP, nom d'utilisateur, prénom de la victime (facultatif), date de naissance de la victime (facultatif) pour effectuer un test de brute force.
+- **Scan de Vulnérabilité** : Entrez une IP et une plage de ports pour vérifier les vulnérabilités des services détectés avec le lien de la CVE si possible.
 
 ## Génération de Rapports
 Les résultats des scans et analyses peuvent être exportés sous forme de fichiers PDF ou DOCX. Une option de génération de rapport est disponible après chaque scan/analyse.
@@ -88,11 +88,11 @@ Les résultats des scans et analyses peuvent être exportés sous forme de fichi
 ## Conclusion et Perspectives
 Cette boîte à outils a été développée pour simplifier et améliorer les tests de sécurité. Nous continuons à améliorer ses fonctionnalités et à ajouter de nouvelles capacités pour répondre aux besoins en constante évolution du domaine de la cybersécurité.
 
-Pour toute question ou suggestion, n'hésitez pas à nous contacter.
+Pour toute question ou suggestion, n'hésitez pas à nous contacter par mail : bilelbelferroum.pro@gmail.com.
 
 Suivez les instructions à l'écran pour naviguer dans les différentes fonctionnalités de l'application.
 
-# Structure du Projet
+# Structure du Projet 📝
 - `main.py` : Fichier principal pour lancer l'application.
 - `LoginWindow` : Gère l'authentification de l'utilisateur.
 - `MainWindow` : Interface principale de l'application avec différentes options de sécurité.
@@ -101,7 +101,7 @@ Suivez les instructions à l'écran pour naviguer dans les différentes fonction
 - `generate_password_combinations` : Fonction pour générer des combinaisons de mots de passe.
 - `save_report` : Fonction pour sauvegarder les rapports en PDF ou DOCX.
 
-# Exemples d'Utilisation
+# Exemples d'Utilisation 👨‍💻
 
 ### Analyse de Mot de Passe
 1. Lancez l'analyse via l'interface.
@@ -113,11 +113,5 @@ Suivez les instructions à l'écran pour naviguer dans les différentes fonction
 2. Entrez l'IP cible et la plage de ports.
 3. Visualisez les vulnérabilités trouvées et générez un rapport.
 
-# Contributions
-Les contributions sont les bienvenues ! Veuillez soumettre une pull request ou ouvrir une issue pour discuter des changements que vous souhaitez apporter.
-
-# Licence
-Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
-
 # Auteurs
-- Votre Nom (votre-email@example.com)
+- Bilel BELFERROUM (bilelbelferroum.pro@gmail.com)
