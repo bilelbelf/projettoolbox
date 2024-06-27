@@ -61,7 +61,7 @@ Interface de connexion sécurisée avec validation des identifiants.
 7. `vulners` : **Utilisation** Interface avec la base de données de vulnérabilités Vulners pour la recherche de vulnérabilités.
    - **Installation** : `pip install vulners`
 
-### Fichiers nécessaires :
+### Fichiers nécessaires à rajouter au répértoire :
 
 - **Pour le scan de vulnérabilité** : `vuln_api` Fichier contenant la clé API pour accéder à l'API Vulners. Inscrivez-vous sur [Vulners](https://vulners.com/) pour obtenir une clé API.
 - **Pour l'analyse de mot de passe** : `probable-v2-top12000.txt` Fichier contenant une liste de mots de passe communs pour effectuer les tests de brute force.
