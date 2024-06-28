@@ -104,7 +104,10 @@ Suivez les instructions à l'écran pour naviguer dans les différentes fonction
 - `save_report` : Fonction pour sauvegarder les rapports en PDF ou DOCX.
 
 # Exemples d'Utilisation 👨‍💻
-
+Test TOOLBOX
+[![Watch the video](Test_TOOLBOX.mp4)
+Test Scan CVE
+![Watch the video](Test_Scan_CVE.mp4)
 ### Analyse de Mot de Passe
 1. Lancez l'analyse via l'interface.
 2. Entrez le mot de passe à analyser.
