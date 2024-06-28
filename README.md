@@ -34,7 +34,7 @@ Interface de connexion sécurisée avec validation des identifiants.
 
 - ### Python 3.6 ou supérieur
 - ### IDE (exemple : VScode)
-  ![1](https://raw.githubusercontent.com/SP-XD/SP-XD/main/images/dev-working_rounded.gif)
+  ![2](https://raw.githubusercontent.com/SP-XD/SP-XD/main/images/dev-working_rounded.gif)
 
 # Installation ☑️
 
@@ -84,6 +84,8 @@ Après authentification, vous accéderez à la fenêtre principale où vous pouv
 
 ## Génération de Rapports
 Les résultats des scans et analyses peuvent être exportés sous forme de fichiers PDF ou DOCX. Une option de génération de rapport est disponible après chaque scan/analyse.
+`Voir les différents PDF mis à disposition`
+
 
 ## Conclusion et Perspectives
 Cette boîte à outils a été développée pour simplifier et améliorer les tests de sécurité. Nous continuons à améliorer ses fonctionnalités et à ajouter de nouvelles capacités pour répondre aux besoins en constante évolution du domaine de la cybersécurité.
